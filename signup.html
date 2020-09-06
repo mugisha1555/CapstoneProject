@@ -1,33 +1,34 @@
 <html>
     <head>
         <title>Sign up page</title>
-        <link rel="stylesheet" href="../styles/signup.css">
+        <link rel="stylesheet" href="../CapstoneProject/styles/signup.css">
     </head>
     <body>
         <div class="wrapper">
             <div class="logo">
-                <a href="../index.html"><img class="logo" src="../Assets/Images/LL 1.png" alt="logo"></a>
+                <a href="../CapstoneProject/index.html"><img class="logo" src="../CapstoneProject/assets/images/LL 1.png " alt="logo"></a>
             </div>
             <div class="logForm">
                 <h2 id='signup'>Sign Up</h2>
                 <div class="formBox">
                     <div class="inputBox">
-                        <input type="text"  placeholder="Username" required>
+                        <input type="text"  placeholder="Username" id="name" required>
                     </div>
                     <div class="inputBox">
-                        <input type="text" placeholder="Email" required>
+                        <input type="email" placeholder="Email" id="email" required>
                     </div>
                     <div class="inputBox">
-                        <input type="text" placeholder="Password" required>
+                        <input type="password" placeholder="Password" id="password"pattern=".{8,}" title="Eight or more characters" required> 
                     </div>
                     <div class="inputBox">
-                        <input type="text" placeholder="Confirm Password" required>  
+                        <input type="password" placeholder="Confirm Password" id="confirm password" pattern=".{8,}" title="Eight or more characters"required> 
                     </div>
                     <div class="inputBox">
-                        <button type="button" class="signup">SIGN UP</button>
+                        <button type="submit" class="signup"><a href="./login.html">SIGN UP</a></button>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="../CapstoneProject/scripts/signup.js"></script> 
     </body>
 </html>

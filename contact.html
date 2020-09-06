@@ -11,35 +11,30 @@
 </head>
 <body>
     <div class="logo">
-        <a href="../index.html"><img class="imgLogo" src="../Assets/Images/LL 1.png" alt="logo"></a>
+        <a href="."><img class="imgLogo" src="../CapstoneProject/assets/images/LL 1.png  " alt="logo"></a>
     </div>
    <div class="Container">
       
       <nav class="links">
             <ul>
-                <li><a href="#" target="_blank">HOME</a></li>
-                <li><a href="#" target="_blank">ABOUT</a></li>
+                <li><a href="../CapstoneProject/index.html" target="_blank">HOME</a></li>
+                <li><a href="./About.html" target="_blank">ABOUT</a></li>
                 <li><a href="#" target="_blank">CONTACT</a></li>
-                <li><a href="#" target="_blank">BLOG</a></li>
-                
-
+                <li><a href="./Blog.html" target="_blank">BLOG</a></li>
             </ul>
       </nav>
-      <form id="contact_form"  name="form" class="contactbox">
+      <form id="contact_form"  name="form" class="contactbox" onsubmit="return validation(e)">
          <h2>SEND A MESSAGE </h2>
-                    
         <p> Your Name </p>   
-        
-        <input class="name" name="name" placeholder="Enter a name" type="text" id="name">
+        <input class="name" name="text" placeholder="Enter a name" type="text" id="name" required >
         <p>Your Email</p>
-        <input placeholder="Eneter Email" name="email" id="email" type="email">
+        <input placeholder="Enter Email" name="email" id="email" type="email" required >
         <div class="text0">
             <p>Your message</p>
-         
-           <textarea name="message" name="message" placeholder="Enter your message" id="message" cols="30" rows="10"></textarea>
+           <textarea name="message" name="message" placeholder="Enter your message" id="message" minlength="10" cols="60" rows="10" required></textarea>
         </div>
         <div class="send">
-            <button type="submit"  class="send">SEND MESSAGE</button>
+            <button type="submit"class="send">SEND MESSAGE</button>
         </div>
       </form>
         <div class="contacts">

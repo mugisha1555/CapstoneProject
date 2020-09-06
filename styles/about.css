@@ -39,15 +39,16 @@ body{
     .aboutimage img{
         order: 1;
         display: flex;
-        margin: 30px;
-        padding: 30px;
         width: 370px;
-        margin-top: -4em;
+        position: absolute;
+        top: 16%;
+        left: 15%;
+
     }
     .social-menu ul{
         position: absolute;
-        top: 88%;
-        left:2.5%;
+        bottom:6%;
+        left:6.2%;
         display: flex;
     }
     .social-menu ul li {
@@ -69,8 +70,14 @@ body{
         box-shadow: 0 5px 4px rgb(18, 6, 126)
     }
     .aboutme{
+        order: 2;
         color: blanchedalmond;
         font-size: 20px;
+        padding-bottom: 2em;
+        position: absolute;
+        top:12%;
+        left: 48%;
+        margin-right:6em ;
     }
               
     
