@@ -25,6 +25,9 @@
             color: white;
             opacity: 1;
     }
+    button a {
+        color: black;
+    }
     nav {
             position: absolute;
             right: 2%;
