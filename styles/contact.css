@@ -1,0 +1,103 @@
+*{
+padding: 0;
+margin: 0;
+}
+.Container {
+    display: flex;
+    margin-top: 8em;
+    justify-content: space-evenly;
+    
+    
+}
+
+body{
+font-family: 'roboto', sans-serif;
+background-color:#1630B7 ;
+}
+.logo {
+    margin:1.6em;
+ }
+ .imgLogo{
+     height: 2.3em;
+     display: block;
+}
+ li {
+    display: inline;
+    padding-left: 5em;
+    }
+a {
+        text-decoration: none;
+        color: white;
+        opacity: 1;
+}
+nav {
+        position: absolute;
+        right: 2%;
+        top: 0%;
+        margin-top: 1.6em; 
+    }
+a:hover {
+        text-decoration: underline;
+        opacity: 1;
+ }
+.contacts {
+    order: 1;
+    align-self: flex-start;
+    margin-right: 3em;
+
+}
+.contacts p {
+    margin-bottom: 1em;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.contactbox  {
+    order: 2;
+    align-self: flex-start;
+}
+.contactbox p {
+    color: whitesmoke;
+    margin-bottom: .3em;
+    font-size: 20px;
+}
+.contactbox h2, .contacts h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2em;
+    margin-top:-3em ;
+
+}
+span {
+    margin-right: .5em;
+}
+button {
+    margin-top: .7em;
+    padding: 10px 10px;
+    border: 4px solid black;
+    font-weight: 700;
+    border-radius: 3em;
+}
+
+
+
+form  input{
+    
+    margin-bottom: 1em;
+    height: 2em;
+    width: 430px;
+    
+    
+}
+input:focus ,textarea:focus {
+    outline: none;
+}
+    
+.fa-phone{
+    color:#0096fa ;
+}
+.fa-envelope{
+    color:#1da1f3;
+}
+.fa-twitter{
+    color:#1da1f3;
+}
