@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1630B7;
+}
+.Container{
+    display: flex;
+    margin-top: 8em;
+    justify-content: space-evenly;
+}
+.logo{
+    margin: 1.6em;
+    
+}
+ .imgLogo{
+     height: 2.3em;
+     display: block;
+     padding-bottom: 3em;
+}
+  li {
+        display: inline;
+        padding-left: 5em;
+        }
+    a {
+            text-decoration: none;
+            color: white;
+            opacity: 1;
+    }
+    nav {
+            position: absolute;
+            right: 2%;
+            top: 0%;
+            margin-top: 1.2em; 
+        }
+    a:hover {
+            text-decoration: underline;
+            opacity: 1;
+    }
+    .aboutimage img{
+        order: 1;
+        display: flex;
+        width: 370px;
+        position: absolute;
+        top: 16%;
+        left: 15%;
+
+    }
+    .social-menu ul{
+        position: absolute;
+        bottom:6%;
+        left:6.2%;
+        display: flex;
+    }
+    .social-menu ul li {
+       list-style: none; 
+    }
+    .social-menu ul li .fa{
+       line-height: 20px;
+       color: black;
+    }
+    .social-menu ul li a{
+        position: absolute;
+        display:block;
+        justify-content: space-evenly;
+        width: 22px;
+        height: 22px;
+        border-radius: 5%;
+        background-color:white;
+        text-align: center;
+        box-shadow: 0 5px 4px rgb(18, 6, 126)
+    }
+    .aboutme{
+        order: 2;
+        color: blanchedalmond;
+        font-size: 20px;
+        padding-bottom: 2em;
+        position: absolute;
+        top:12%;
+        left: 48%;
+        margin-right:6em ;
+    }
+              
+    
+    
