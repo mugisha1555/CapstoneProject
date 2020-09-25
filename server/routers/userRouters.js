@@ -4,7 +4,7 @@ import userControllers from "../controllers/userControllers";
 const userRouters = express.Router();
 
 
-userRouters.put('/users/:id',userControllers.update)
+userRouters.get('/users/:id',userControllers.getbyId)
 
 
 export default userRouters
