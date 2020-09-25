@@ -4,7 +4,7 @@ import userControllers from "../controllers/userControllers";
 const userRouters = express.Router();
 
 
-userRouters.delete('/users/:id',userControllers.delete)
+userRouters.put('/users/:id',userControllers.update)
 
 
 export default userRouters
