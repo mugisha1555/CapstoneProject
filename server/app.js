@@ -1,12 +1,13 @@
 import express from 'express';
-import commentRouters from "./routers/commentRouters";
-require ('../server/config/mongoose')
+import contactsRouters from "./routers/contactsRouters";
+
+ require ('./config/mongoose')
 const app = express();
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
-app.use(commentRouters)
+app.use(contactsRouters)
 
 
 
