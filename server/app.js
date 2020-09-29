@@ -1,12 +1,12 @@
 import express from 'express';
-import deleteblogRouters from "./routers/deleteblogRouters";
+import createblogRouters from "./routers/createblogRouters";
 require ('../server/config/mongoose')
 const app = express();
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
-app.use(deleteblogRouters)
+app.use(createblogRouters)
 
 
 
