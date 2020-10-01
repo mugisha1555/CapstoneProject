@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase.js"></script>  
+   <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script> 
+</head>
+<body>
+    <div class="logo">
+        <a href="../pages/index.html"><img class="imgLogo" src="../assets/images/LL 1.png  " alt="logo"></a>
+    </div>
+   <div class="Container">
+      
+      <nav class="links">
+            <ul>
+                <li><a href="../pages/index.html" target="_blank">HOME</a></li>
+                <li><a href="../pages/About.html" target="_blank">ABOUT</a></li>
+                <li><a href="#" target="_blank">CONTACT</a></li>
+                <li><a href="../pages/Blog.html" target="_blank">BLOG</a></li>
+            </ul>
+      </nav>
+      <form id="contact_form"  name="form" class="contactbox" onsubmit="return validation(e)">
+         <h2>SEND A MESSAGE </h2>
+        <p> Your Name </p>   
+        <input class="name" name="text" placeholder="Enter a name" type="text" id="name" required >
+        <p>Your Email</p>
+        <input placeholder="Enter Email" name="email" id="email" type="email" required >
+        <div class="text0">
+            <p>Your message</p>
+           <textarea name="message" name="message" placeholder="Enter your message" id="message" minlength="10" cols="60" rows="10" required></textarea>
+        </div>
+        <div class="send">
+            <button type="submit"class="send">SEND MESSAGE</button>
+        </div>
+      </form>
+        <div class="contacts">
+            <h2> GET IN TOUCH</h2>
+            <p><span class="socialicons"><i class="fa fa-phone"></i></span>+250783344915</p>
+            <p><span class="socialicons"><i class="fa fa-envelope"></i></span>mugishaolivier198@gmail.com</p>
+            <p><span class="socialicons"><i class="fa fa-twitter"></i></span>@nubaha3</p>
+            
+           
+        </div>
+        
+   </div>
+<script src="../scripts/contact.js"></script>   
+</body>
+</html>
